@@ -1,0 +1,126 @@
+/* CSS (home.css) */
+body {
+    background-color: black;
+    color: rgb(34, 119, 194);
+    font-family: 'Orbitron', sans-serif; /* Apply Orbitron font globally */
+}
+
+#webhead {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(36, 126, 216);
+}
+
+.user-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make the icon round */
+    cursor: pointer;
+    z-index: 100; /* Keeps it above other content */
+}
+
+#quoteline2 {
+    text-align: center;
+    font-size: 70px;
+    color: antiquewhite;
+}
+
+#carlsagan {
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+fieldset {
+    border: 2px solid rgb(36, 131, 214);
+    padding: 20px;
+    margin: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+h2, h1, h4 {
+    margin: 0;
+}
+
+#honesectiontwo {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(37, 140, 219);
+}
+
+#firstp, .large-paragraph {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#sectionone {
+    margin: 30px;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+#linefirst {
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+#honeofthestory {
+    text-align: center;
+    font-size: 50px;
+}
+
+#storypartone {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: rgb(34, 119, 194);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #444;
+    border: 1px solid rgb(36, 131, 214);
+    border-radius: 5px;
+    color: #fff;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgb(36, 131, 214);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(37, 140, 219);
+}
+footer {
+    margin-top: 30px;
+    color: rgb(36, 131, 214);
+    font-size: 14px;
+}

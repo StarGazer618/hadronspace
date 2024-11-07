@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image and Container Styles */
+body {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading Style */
+.login-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(0, 150, 255); /* Glowing blue color */
+    text-shadow: 0px 0px 8px rgba(0, 150, 255, 0.8);
+}
+
+/* Input Field Styles */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-bottom: 2px solid rgb(0, 150, 255);
+    color: white;
+    font-size: 1em;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-container input:focus {
+    border-bottom: 2px solid #00eaff;
+    box-shadow: 0 4px 8px rgba(0, 234, 255, 0.4);
+}
+
+/* Button Styles */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(0, 150, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 150, 255, 0.6);
+}
+
+.login-container button:hover {
+    background: #00eaff;
+    box-shadow: 0px 4px 20px rgba(0, 234, 255, 0.8);
+}
